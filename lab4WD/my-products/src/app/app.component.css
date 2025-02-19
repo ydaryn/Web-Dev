@@ -1,0 +1,12 @@
+.welcome-text {
+    font-size: 70px;
+    font-weight: 500;
+    color: #553c9a;
+    border-right: 4px solid #000;
+    /*This will be the blinking cursor*/
+}
+
+.kaspiLogo {
+    width: 300px;
+    margin-bottom: 10px;
+}
