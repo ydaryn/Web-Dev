@@ -1,0 +1,7 @@
+<div class="categories-container">
+    <h1>Категории</h1>
+    <div class="category-card" *ngFor="let category of categories" (click)="goToCategory(category.name)">
+        <img [src]="category.image" alt="{{ category.name }}">
+        <h2>{{ category.name }}</h2>
+    </div>
+</div>

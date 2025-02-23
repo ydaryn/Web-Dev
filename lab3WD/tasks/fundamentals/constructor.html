@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function Car(brand, model, year) {
+            this.brand = brand;
+            this.model = model;
+            this.year = year;
+
+            this.getInfo = function () {
+                return this.brand + " " + this.model + ", год выпуска: " + this.year;
+            };
+        }
+
+        let myCar = new Car("Toyota", "Camry", 2022);
+        console.log(myCar.getInfo()); // "Toyota Camry, год выпуска: 2022"
+
+    </script>
+</body>
+
+</html>

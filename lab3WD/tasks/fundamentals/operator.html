@@ -1,0 +1,12 @@
+<script>
+    let a = 1, b = 1;
+    let c = ++a; // prefix, a=2. c=2
+    let d = b++; // postfix, d=1, b==2. 
+
+    let v = 2;
+    let x = 1 + (v *= 2);// 2*2=4, 4+1=5
+
+    let t = +prompt("First number?", 1);
+    let w = +prompt("Second number?", 2);//unary
+    alert(t + w); // 12
+</script>
