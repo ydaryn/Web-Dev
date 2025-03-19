@@ -1,0 +1,23 @@
+pip install virtualenv
+
+mkdir myproject
+cd myproject
+
+virtualenv venv
+
+venv\Scripts\activate
+
+py -m ensurepip --upgrade
+
+py -m pip install virtualenv
+
+py -m pip install django
+
+django-admin startproject mysite
+cd mysite
+
+py manage.py migrate
+
+py manage.py createsuperuser
+
+py manage.py runserver
