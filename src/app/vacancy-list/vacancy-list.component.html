@@ -1,0 +1,14 @@
+<h2>Vacancies</h2>
+<div class="vacancy-list">
+    <ul>
+        <li *ngFor="let vacancy of vacancies" class="vacancy-item">
+            <div class="vacancy-info">
+                <h3 class="vacancy-title">{{ vacancy.name }}</h3>
+                <p class="vacancy-salary">{{ vacancy.salary }} KZT</p>
+            </div>
+            <div class="vacancy-actions">
+                <button class="apply-btn">Apply Now</button>
+            </div>
+        </li>
+    </ul>
+</div>

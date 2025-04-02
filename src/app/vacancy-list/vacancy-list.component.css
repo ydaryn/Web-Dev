@@ -1,0 +1,58 @@
+.vacancy-list {
+    margin: 20px;
+}
+
+.vacancy-item {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.vacancy-item:hover {
+    transform: translateY(-5px);
+}
+
+.vacancy-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.vacancy-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.vacancy-salary {
+    font-size: 1em;
+    color: #666;
+}
+
+.vacancy-actions {
+    text-align: right;
+}
+
+.apply-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.apply-btn:hover {
+    background-color: #45a049;
+}
+
+.apply-btn:focus {
+    outline: none;
+}
